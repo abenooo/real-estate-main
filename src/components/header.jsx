@@ -52,7 +52,7 @@ const Header = () => {
 
       {/* Search */}
 
-      <div className=" hidden sm:flex">
+      {/* <div className=" hidden sm:flex">
         <Image src={searchIcon} alt="Menu" className="w-4 h-4 self-center" />
         <input
           type="text"
@@ -60,7 +60,7 @@ const Header = () => {
           maxLength="20"
           className="w-40 bg-transparent outline-none placeholder-gray-300 mx-4 py-2 text-white capitalize"
         />
-      </div>
+      </div> */}
 
       {/* navbar Links */}
 
@@ -83,12 +83,6 @@ const Header = () => {
         </li>
       </ul>
 
-      <p
-        style={{ color: `${headerText}` }}
-        className="hidden sm:flex text-sm font-bold ml-10 mr-5 hover:text-orange-500 cursor-pointer"
-      >
-        Get In Touch
-      </p>
       <div className="mr-10">
         <ThemeChanger />
       </div>
