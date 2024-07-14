@@ -45,11 +45,7 @@ const HomePage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="dark:bg-bgDark">
-        <Hero
-          address="225 S 1st St Brooklyn, NY 11211"
-          phone="(929) 123-4567"
-          email="constrctr@restate.com"
-        />
+        <Hero   />
 
         <About
           cardTitle1="15 years"
